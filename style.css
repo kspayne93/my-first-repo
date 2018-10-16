@@ -1,0 +1,71 @@
+a {
+  color: #F2F7F7;
+  font-size: 24px;
+  font-family: sans-serif;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+}
+
+ul {
+  background-color: #2B2C2C;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  background-color: #53c8c1;
+}
+
+p {
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 10px 60px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #2B2C2C;
+}
+
+#footText {
+  color: #F2F7F7;
+}
+
+.picBackdrop {
+  background-position: center;
+  background-size: cover;
+}
+
+#bg1 {
+  background-image: url("/Users/kylepayne/devmtn/basecamp/projects/First Website/images/bg1.jpg");
+}
+
+#bg2 {
+  background-image: url("/Users/kylepayne/devmtn/basecamp/projects/First Website/images/bg2.jpg");
+}
+
+#bg3 {
+  background-image: url("/Users/kylepayne/devmtn/basecamp/projects/First Website/images/bg3.jpg");
+}
+
+h1 {
+  padding: 120px 10px;
+  height: 60px;
+  text-align: center;
+  color: #F2F7F7;
+  font-size: 72px;
+  font-family: sans-serif;
+  margin: 0;
+}
