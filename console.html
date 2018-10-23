@@ -1,7 +1,14 @@
 <script>
-function sameNotsame (num1,num2){
-  console.log(num1===num2);
-}
-
-sameNotsame(2,3)
+function changeEverything(obj,value){
+  for(i in obj){
+    obj[i] = value;
+  };
+  return obj
+};
+var myobj = {
+  thing1:1,
+  thing2:2,
+  thing3:3
+};
+console.log(changeEverything(myobj,53));
 </script>
